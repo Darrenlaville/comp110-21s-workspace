@@ -13,20 +13,18 @@ from random import randint
 
 
 # Begin your solution here...
-print("Your forutne cookie says...")
-fortune: int = (randint(1,4))
+print("Your fortune cookie says...")
+fortune: int = (randint(1, 4))
 
 if fortune == 1:
-    print("the grasshopper looks for better days")
+    print("the grasshopper looks for better days.")
 else: 
     if fortune == 2:
-        print("The journey of 1000 miles begins with a single step")
+        print("The journey of 1000 miles begins with a single step.")
     else:
         if fortune == 3:
-            print("Just do it")
+            print("Just do it.")
         else: 
-            print("Don't text em, nothing good will come from this")
+            print("Don't text em, nothing good will come from this.")
 
 print("Now, go spread positive vibes!")
-    
-
